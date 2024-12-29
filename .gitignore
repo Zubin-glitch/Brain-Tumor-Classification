@@ -1,0 +1,30 @@
+# Ignore streamlit files
+.streamlit/
+# Ignore environment variables
+.env
+
+# Ignore virtual environment
+.venv/
+
+# Ignore model and model weights
+models/
+
+# Ignore saliency map images
+app/saliency_maps/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore any image or model files (if missed)
+*.jpg
+*.png
+*.jpeg
+*.h5
